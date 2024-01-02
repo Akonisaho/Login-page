@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-image: url(/images/background.jpg);
+    background-position: center;
+    
+}
+.wrapper{
+   
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 20px;
+    width: 400px;
+    
+    
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: rgb(242, 237, 231);
+    
+}
+
+form{
+    
+    max-width: 500px;
+    margin: 50px auto;
+    padding:30px 30px ;
+}
+.wrapper input {
+    border:2px solid black;
+    border-radius: 10px;
+    padding:9px;
+    display:block;
+    width:100%
+}
+.wrapper input[type="checkbox"]{
+    display:inline-block;
+    width:auto;
+}
+button{
+    background-color: transparent;
+    border: 3px solid rgb(209, 204, 204);
+    border-radius: 6px;
+    font-family: verdana;
+    font-size:15px;
+    display:block;
+    width:auto;
+    margin:auto;
+    
+    color:white;
+  }
+  a {
+    margin-left: 60px;
+  }
+  .wrapper i {
+    padding-left: 10px;
+  }
